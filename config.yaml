@@ -1,0 +1,12 @@
+finam:
+  api_url: "https://trade-api.finam.ru/public/api/v1/orders"
+  client_id: "YOUR_CLIENT_ID"  # Замените на свой
+  token: "YOUR_API_TOKEN"      # Замените на свой
+
+tradingview:
+  passphrase: "your_secret_phrase"  # Для верификации алертов
+  allowed_actions: ["buy", "sell"]  # Разрешенные команды
+
+risk_management:
+  max_quantity: 10           # Макс. контрактов на сделку
+  slippage: 0.010            # Проскальзывание (1%)
